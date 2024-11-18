@@ -1,0 +1,30 @@
+.skill-box {
+    background-color: white;
+    padding: 20px;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+}
+.skill-box .skill-name {
+ text-align: center;
+ margin-bottom: 15px;
+ font-size: 20px;
+ font-weight: bold;
+}
+.skill-box .skill-progress {
+    background-color: #f7f7f7;
+    padding: 10px;
+    position: relative;
+
+}
+.skill-box .skill-progress span{
+    position: absolute;
+    width: 0;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: green;
+    transition: .5s;
+}
+
+
+
